@@ -1,0 +1,2 @@
+module AaCoreHelper
+end
