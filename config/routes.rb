@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   #get 'aa_core/index'
   match "/index" => "aa_core#index", via: :get
   #get 'aa_core/events'
-   match "/events" => "aa_core#events", via: :get
+   #match "/events" => "aa_core#events", via: :get
   #get 'aa_core/shop'
   match "/shop" => "aa_core#shop", via: :get
   #get 'aa_core/discussion'
